@@ -7,7 +7,7 @@
 }
 
 #burgerImage {
-  width: 15%;
+  width: 50%;
 
   border: #ffd400 solid 20px;
   border-radius: 50%;
@@ -52,9 +52,12 @@ h1 {
 }
 
   form{
-    margin: 5px 0;
+    margin: 10px 0;
   }
-
+.textInput{
+  background-color: #faa6a6;
+  border-color: #ffd400;
+}
   .btn{
     background-color: #ffd400;
     border: red;
@@ -83,7 +86,11 @@ h1 {
       text-align: center;
     }
     #burgerImage {
-      width: 35%;
+      width: 50%;
     }
 
+    h1{
+      font-size: 40px;
+    }
+  
 }
